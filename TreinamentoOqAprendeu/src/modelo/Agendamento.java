@@ -3,30 +3,17 @@ package modelo;
 import java.util.Date;
 
 public class Agendamento {
-	private Date data ;	
+	private String data ;	
 	private Cliente cliente;
 	private Profissional profissional;
 	private Servico servico;
+	
 	
 	public Agendamento() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	
-	
-	public Agendamento(Date data) {
-		super();
-		this.data = data;
-	}
-
-
-
-	public Date getData() {
-		return data;
-	}
-	public void setData(Date data) {
-		this.data = data;
-	}
 	public Cliente getCliente() {
 		return cliente;
 	}
@@ -44,6 +31,16 @@ public class Agendamento {
 	}
 	public void setServico(Servico servico) {
 		this.servico = servico;
+	}
+
+
+	public String getData() {
+		return data;
+	}
+
+
+	public void setData(String data) {
+		this.data = data;
 	}
 	
 	

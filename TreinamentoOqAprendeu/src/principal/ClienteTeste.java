@@ -19,6 +19,9 @@ public class ClienteTeste {
 		c.setLogin("");
 		c.setSenha("");
 		
+		
+		
+		
 	}
 
 }
