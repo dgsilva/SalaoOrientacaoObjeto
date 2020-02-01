@@ -25,6 +25,7 @@ public class AgendamentoTeste {
 		System.out.println("Descrição do Servico: " +a.getServico().getDescricao());
 		System.out.println("Data: " +a.getData());
 		
+		
 	}
 
 }
